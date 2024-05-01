@@ -25,5 +25,6 @@ public class Admin extends User{
     public void setPassword(String password,Player player){player.setPassword(password);}
     public void restaurarPassword(String password, Player player){setPassword(password,player);}
     public void guardarPartida(Player player){player.setPuntoGuardado(LocalDateTime.now());}
-    public void desbloquearLogro(Player player,Logros logro){player.logros.add(logro);}
+    public void desbloquearLogro(Player player, Logro logro){player.logros.add(logro);}
+    public void agregarItem(Player player,Item item){player.items.add(item);}
 }

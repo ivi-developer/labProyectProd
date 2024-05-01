@@ -1,4 +1,4 @@
 package back;
-public enum Logros{
+public enum LogrosTitle {
     VIAJE_EN_11
 }
