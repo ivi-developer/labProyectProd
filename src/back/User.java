@@ -12,4 +12,12 @@ public class User{
     protected void setNick(String nick){this.nick=nick;}
     protected String getNick(){return nick;}
     protected void setPassword(String password){this.password=password;}
+
+    @Override
+    public String toString() {
+        return "User{" +
+                " nick='" + nick + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
