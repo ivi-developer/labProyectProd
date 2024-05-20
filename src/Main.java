@@ -1,4 +1,5 @@
 import back.Admin;
+import back.Inicio;
 import front.Juego;
 import front.Ventana;
 import front.VentanaInfo;
@@ -20,6 +21,9 @@ public class Main{
                 case 2:
                     probandoVentana();
                     break;
+                case 3:
+                    probandoIncio();
+                    break;
             }
             System.out.println("n para cortar");
         }while(!scanner.next().equalsIgnoreCase("n"));
@@ -32,11 +36,12 @@ public class Main{
         admin.mostrarPlayers();
     }
     public static void probandoVentana(){
-        VentanaInfo inicio=new VentanaInfo("db (1).png","hola gordo puto");
-        VentanaInfo bulma=new VentanaInfo("bulma.png","BULMA WACHOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+        VentanaInfo inicio=new VentanaInfo("db (1).png","hola persona de elevado indeice de grasa corporal homosexual");
+        VentanaInfo bulma=new VentanaInfo("bulma.png","BULMA WACHOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
         VentanaInfo indio=new VentanaInfo("goku.jpg","VAMO REDONDO CON HUEVO VAYA AL FRENTE");
         Juego juego=new Juego();
         juego.agregarVentanaInfo(inicio);juego.agregarVentanaInfo(bulma);juego.agregarVentanaInfo(indio);
         Ventana ventana=new Ventana(Juego.getVentanasInfo());
     }
+    public static void probandoIncio(){Inicio inicio=new Inicio();}
 }
