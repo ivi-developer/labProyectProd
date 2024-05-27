@@ -1,4 +1,4 @@
-package back;
+package front;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

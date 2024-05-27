@@ -71,4 +71,8 @@ public class Ventana extends JFrame{
         }
         );
     }
+
+    public int getIndice() {
+        return indice;
+    }
 }

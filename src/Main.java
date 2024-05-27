@@ -1,10 +1,10 @@
 import back.Admin;
-import back.Inicio;
+import front.Inicio;
 import front.Juego;
 import front.Ventana;
 import front.VentanaInfo;
 
-import javax.swing.*;
+
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
@@ -12,11 +12,14 @@ public class Main{
         menu(scanner);
     }
     public static void menu(Scanner scanner){
+        Admin admin=new Admin();
         do{
             System.out.println("elegi");
             switch(scanner.nextInt()){
                 case 1:
-                    guardarUsarios();
+                    admin.crearPlayer();
+                    admin.crearPlayer();
+                    admin.mostrarPlayers();
                     break;
                 case 2:
                     probandoVentana();
@@ -24,12 +27,26 @@ public class Main{
                 case 3:
                     probandoIncio();
                     break;
+                case 4:
+                    admin.guardarEnJson("jugadoresLaConchaDeSuMadre");
+                    break;
+                case 5:
+                    admin.leerDesdeJson("jugadoresLaConchaDeSuMadre");
+                    admin.mostrarPlayers();
+                    break;
+                case 6:
+                    admin.mostrarPlayers();
+                    break;
+                default:
+                    System.out.println("wachin");
+                    break;
             }
             System.out.println("n para cortar");
         }while(!scanner.next().equalsIgnoreCase("n"));
     }
     public static void guardarUsarios(){
         Admin admin=new Admin();
+        admin.mostrarPlayers();
         admin.crearPlayer();
         admin.crearPlayer();
         admin.crearPlayer();
@@ -44,4 +61,5 @@ public class Main{
         Ventana ventana=new Ventana(Juego.getVentanasInfo());
     }
     public static void probandoIncio(){Inicio inicio=new Inicio();}
+
 }

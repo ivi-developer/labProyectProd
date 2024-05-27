@@ -1,5 +1,9 @@
 package back;
-import java.time.LocalDateTime;
+import front.Ventana;
+import front.VentanaInfo;
+
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.LinkedList;
 
 public class Player extends User{
@@ -7,17 +11,19 @@ public class Player extends User{
         super();
         logros=new LinkedList<>();
         items=new LinkedList<>();
+        ventana=new Ventana(new ArrayList<>());
     }
     protected LinkedList<Logro> logros;
-    protected LocalDateTime puntoGuardado;
+    protected Integer puntoGuardado;
+    protected Ventana ventana;
     protected LinkedList<Item>items;
     protected Player(String nick,String password){
         super(nick, password);
-        puntoGuardado=LocalDateTime.now();
+        puntoGuardado=0;
         logros=new LinkedList<>();
         items=new LinkedList<>();
     }
-    protected void setPuntoGuardado(LocalDateTime localDateTime){this.puntoGuardado=localDateTime;}
+    protected void setPuntoGuardado(Integer puntoGuardado){this.puntoGuardado=puntoGuardado;}
     @Override
     public String toString() {
         return super.toString()+ "Player{" +

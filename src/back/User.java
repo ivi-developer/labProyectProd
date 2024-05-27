@@ -1,7 +1,6 @@
 package back;
-import java.util.Scanner;
 public class User{
-    protected Scanner scanner=new Scanner(System.in);
+   // protected Scanner scanner=new Scanner(System.in);
     private String nick;
     private String password;
     public User(String nick,String password){
