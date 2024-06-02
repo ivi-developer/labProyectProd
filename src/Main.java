@@ -1,10 +1,15 @@
 import back.Admin;
+import back.EstadoDeAcceso;
+import back.Logro;
+import back.LogrosTitle;
 import front.Inicio;
 import front.Juego;
 import front.Ventana;
 import front.VentanaInfo;
 
-
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
@@ -22,10 +27,10 @@ public class Main{
                     admin.mostrarPlayers();
                     break;
                 case 2:
-                    probandoVentana();
+                    admin.guardarEnJson("jugadoresLaConchaDeSuMadre");
                     break;
                 case 3:
-                    probandoIncio();
+                    admin.getPlayer("ivi").verLogros();
                     break;
                 case 4:
                     admin.guardarEnJson("jugadoresLaConchaDeSuMadre");
@@ -36,6 +41,9 @@ public class Main{
                     break;
                 case 6:
                     admin.mostrarPlayers();
+                    break;
+                case 7:
+                    admin.cargarLogros();
                     break;
                 default:
                     System.out.println("wachin");
@@ -61,5 +69,6 @@ public class Main{
         Ventana ventana=new Ventana(Juego.getVentanasInfo());
     }
     public static void probandoIncio(){Inicio inicio=new Inicio();}
+
 
 }

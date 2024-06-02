@@ -1,27 +1,23 @@
 package back;
-import front.Ventana;
-import front.VentanaInfo;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.LinkedList;
+import java.util.*;
+
+import java.util.stream.Collectors;
 
 public class Player extends User{
+    protected LinkedHashMap<LogrosTitle,Logro> logros;
+    protected Integer puntoGuardado;
     protected Player(){
         super();
-        logros=new LinkedList<>();
-        items=new LinkedList<>();
-        ventana=new Ventana(new ArrayList<>());
-    }
-    protected LinkedList<Logro> logros;
-    protected Integer puntoGuardado;
-    protected Ventana ventana;
-    protected LinkedList<Item>items;
-    protected Player(String nick,String password){
-        super(nick, password);
         puntoGuardado=0;
-        logros=new LinkedList<>();
-        items=new LinkedList<>();
+        logros=new LinkedHashMap<>();
+        //ventana=new Ventana(new ArrayList<>());
+    }
+    //protected Ventana ventana;
+    public void verLogros(){
+        List<Logro>logroList=logros.values().stream().filter(logro -> logro.getEstadoDeAcceso().equals(EstadoDeAcceso.DESBLOQUEADO)).collect(Collectors.toList());
+        Collections.reverse(logroList);
+        System.out.println(logroList);
     }
     protected void setPuntoGuardado(Integer puntoGuardado){this.puntoGuardado=puntoGuardado;}
     @Override
@@ -29,7 +25,6 @@ public class Player extends User{
         return super.toString()+ "Player{" +
                 "logros=" + logros +
                 ", puntoGuardado=" + puntoGuardado +
-                ", items=" + items +
                 '}';
     }
 }

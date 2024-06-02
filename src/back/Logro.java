@@ -1,10 +1,11 @@
 package back;
-public class Logro {
-    public Logro(LogrosTitle logrosTitle,String description){
-        this.logrosTitle=logrosTitle;
-        this.description=description;
+public class Logro{
+    private String descripcion;
+    private EstadoDeAcceso estadoDeAcceso;
+    public Logro(String descripcion, EstadoDeAcceso estadoDeAcceso) {
+        this.descripcion = descripcion;
+        this.estadoDeAcceso = estadoDeAcceso;
     }
-    private LogrosTitle logrosTitle;
-    private String description;
-    //private Img img;
+    public EstadoDeAcceso getEstadoDeAcceso(){return estadoDeAcceso;}
+    public void setEstadoDeAcceso(EstadoDeAcceso estadoDeAcceso){this.estadoDeAcceso=estadoDeAcceso;}
 }

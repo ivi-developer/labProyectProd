@@ -7,10 +7,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Admin extends User{
@@ -26,6 +23,15 @@ public class Admin extends User{
         setPassword(player);
         agregarPlayer(player);
         guardarEnJson("jugadoresLaConchaDeSuMadre");
+    }
+    public void cargarLogros(){//FUNCION TEMPORAL PARA CARGAR LOGROS A JSON, LA IDEA SERIA QUE CUANDO SE CREA UN JUGADOR SE CARGUEN LOS LOGROS Y QUE X VENTANA LE CAMBIE EL ESTADO DEL LOGRO A DESBLOQUEADO
+        Queue<Logro> logros=new LinkedList<>();
+        Gson gson=new GsonBuilder().setPrettyPrinting().create();
+        try (FileWriter fileWriter=new FileWriter("logros")){
+            gson.toJson(logros,fileWriter);
+        }catch (IOException e){
+            System.out.println(e.getMessage());
+        }
     }
     private void setNick(Player player){//ESTE SET NICK SE USA PARA VALIDAR EL NICK
         String nick;
@@ -52,14 +58,16 @@ public class Admin extends User{
         }
     }
     private void setNick(String nick,Player player){player.setNick(nick);}
+    public Player getPlayer(String nick){return players.get(nick);}
     private void setPassword(String password,Player player){player.setPassword(password);}
     private void agregarPlayer(Player player){players.put(player.getNick(),player);}
     public void mostrarPlayers(){System.out.println(players);}
-    private void guardarPartida(Player player){player.setPuntoGuardado(player.ventana.getIndice());}
-    public void desbloquearLogro(Player player, Logro logro){player.logros.add(logro);}
-    public void agregarItem(Player player,Item item){player.items.add(item);}
+    //private void guardarPartida(Player player){player.setPuntoGuardado(player.ventana.getIndice());}
+    public void desbloquearLogro(String nick,LogrosTitle logrosTitle) {
+        players.get(nick).logros.get(logrosTitle).setEstadoDeAcceso(EstadoDeAcceso.DESBLOQUEADO);
+    }//MODIFICA EL ESTADO DE ACCESO DE UN LOGRO ESPECIFICO DEL PLAYER
     public void guardarEnJson(String filePath){
-        Gson gson=new GsonBuilder().setPrettyPrinting().create();
+        Gson gson=new GsonBuilder().registerTypeAdapter(LinkedHashMap.class,new LinkedHashMapAdapter()).setPrettyPrinting().create();
         List<Player>playersList=new ArrayList<>(players.values());
         try(FileWriter fileWriter=new FileWriter(filePath)){
             gson.toJson(playersList,fileWriter);
@@ -68,7 +76,7 @@ public class Admin extends User{
         }
     }
     public void leerDesdeJson(String filePath){
-        Gson gson=new Gson();
+        Gson gson=new GsonBuilder().registerTypeAdapter(LinkedHashMap.class,new LinkedHashMapAdapter()).create();
         try(FileReader fileReader=new FileReader(filePath)){
             Type type=new TypeToken<List<Player>>(){}.getType();
             List<Player>playersList=gson.fromJson(fileReader,type);
@@ -80,7 +88,7 @@ public class Admin extends User{
         }
     }
     public void actualizarPuntoGuardado(Player player,String filePath){
-        guardarPartida(player);
+       // guardarPartida(player);
         guardarEnJson(filePath);
     }
 }

@@ -1,25 +1,22 @@
 [
   {
-    "logros": [],
-    "items": [],
-    "nick": "pablo",
+    "logros": {},
+    "puntoGuardado": 0,
+    "nick": "pablin",
     "password": "lala"
   },
   {
-    "logros": [],
-    "items": [],
-    "nick": "luchi",
-    "password": "lala"
-  },
-  {
-    "logros": [],
-    "items": [],
-    "nick": "marcosGato",
-    "password": "lala"
-  },
-  {
-    "logros": [],
-    "items": [],
+    "logros": {
+      "UNA_MUY_VIEJA_CONOCIDA": {
+        "logroDescripcion": "Mirta",
+        "estadoDeAcceso": "DESBLOQUEADO"
+      },
+      "VIAJE_EN_11": {
+        "logroDescripcion": "viajes",
+        "estadoDeAcceso": "DESBLOQUEADO"
+      }
+    },
+    "puntoGuardado": 0,
     "nick": "ivi",
     "password": "lala"
   }
