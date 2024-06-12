@@ -1,7 +1,9 @@
 package back;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -24,7 +26,7 @@ public class Admin extends User{
         agregarPlayer(player);
         guardarEnJson("jugadoresLaConchaDeSuMadre");
     }
-    public void cargarLogros(){//FUNCION TEMPORAL PARA CARGAR LOGROS A JSON, LA IDEA SERIA QUE CUANDO SE CREA UN JUGADOR SE CARGUEN LOS LOGROS Y QUE X VENTANA LE CAMBIE EL ESTADO DEL LOGRO A DESBLOQUEADO
+    public void cargarLogrosAJson(){//FUNCION TEMPORAL PARA CARGAR LOGROS A JSON, LA IDEA SERIA QUE CUANDO SE CREA UN JUGADOR SE CARGUEN LOS LOGROS Y QUE X VENTANA LE CAMBIE EL ESTADO DEL LOGRO A DESBLOQUEADO
         Queue<Logro> logros=new LinkedList<>();
         Gson gson=new GsonBuilder().setPrettyPrinting().create();
         try (FileWriter fileWriter=new FileWriter("logros")){

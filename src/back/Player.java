@@ -14,6 +14,9 @@ public class Player extends User{
         //ventana=new Ventana(new ArrayList<>());
     }
     //protected Ventana ventana;
+    private void cargarLogros(){
+
+    }
     public void verLogros(){
         List<Logro>logroList=logros.values().stream().filter(logro -> logro.getEstadoDeAcceso().equals(EstadoDeAcceso.DESBLOQUEADO)).collect(Collectors.toList());
         Collections.reverse(logroList);

@@ -1,15 +1,6 @@
 import back.Admin;
-import back.EstadoDeAcceso;
-import back.Logro;
-import back.LogrosTitle;
-import front.Inicio;
-import front.Juego;
-import front.Ventana;
-import front.VentanaInfo;
+import back.ReproducirMusica;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
@@ -43,7 +34,15 @@ public class Main{
                     admin.mostrarPlayers();
                     break;
                 case 7:
-                    admin.cargarLogros();
+                    admin.cargarLogrosAJson();
+                    break;
+                case 8:
+                    ReproducirMusica reproducirMusica=new ReproducirMusica();
+                    reproducirMusica.cargarSonido("./SoundFx/blackRussian.wav");
+                    reproducirMusica.reproducirSonidoEnBucle();
+                    ReproducirMusica reproducirMusica1=new ReproducirMusica();
+                    reproducirMusica1.cargarSonido("./SoundFx/rockParaElNegroAtila.wav");
+                    reproducirMusica1.reproducirSonido();
                     break;
                 default:
                     System.out.println("wachin");
@@ -60,15 +59,4 @@ public class Main{
         admin.crearPlayer();
         admin.mostrarPlayers();
     }
-    public static void probandoVentana(){
-        VentanaInfo inicio=new VentanaInfo("db (1).png","hola persona de elevado indeice de grasa corporal homosexual");
-        VentanaInfo bulma=new VentanaInfo("bulma.png","BULMA WACHOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-        VentanaInfo indio=new VentanaInfo("goku.jpg","VAMO REDONDO CON HUEVO VAYA AL FRENTE");
-        Juego juego=new Juego();
-        juego.agregarVentanaInfo(inicio);juego.agregarVentanaInfo(bulma);juego.agregarVentanaInfo(indio);
-        Ventana ventana=new Ventana(Juego.getVentanasInfo());
-    }
-    public static void probandoIncio(){Inicio inicio=new Inicio();}
-
-
 }
