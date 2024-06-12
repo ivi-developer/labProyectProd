@@ -10,40 +10,39 @@ public class UI {
     GameManager gm;
     JFrame window;
     public JTextArea messageText;
-    public JPanel bgPanel[]  = new JPanel[10];
+    public JPanel bgPanel[] = new JPanel[10];
     public JLabel bgLabel[] = new JLabel[10];
+    ///Historia h = new Historia(gm);
 
 
-
-
-
-    public UI(GameManager gm)
-    {
+    public UI(GameManager gm) {
         this.gm = gm;
         createMainField();
-        GenerarPantalla();
-        window.setVisible(true);
+
+
+    }
+
+    public UI() {
+
     }
 
 
-    public void createMainField()
-    {
+    public void createMainField() {
         /// Config. de la ventana
         window = new JFrame("Realoc: TimeLine");
         window.setSize(1250, 750);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.getContentPane().setBackground(Color.black);
+        window.getContentPane().setBackground(null);
         window.setLayout(null);
         window.setResizable(false);
 
     }
-
-    public void crearFlechaSig(int IndiceFondo, String rutaImagen, String comando) /// Recibe un string con la ruta a la imagen de la flecha
-    {
+    
+    public void crearFlechaSig(int IndiceFondo, String rutaImagen, String comando) { /// Recibe un string con la ruta a la imagen de la flecha{
         ImageIcon flechita = new ImageIcon(getClass().getClassLoader().getResource(rutaImagen));
 
         JButton FlechaSig = new JButton();
-        FlechaSig.setBounds(1115,550,100,100);
+        FlechaSig.setBounds(1115, 550, 100, 100);
         FlechaSig.setBackground(null);
         FlechaSig.setFocusPainted(false);
         FlechaSig.setContentAreaFilled(false);
@@ -51,21 +50,16 @@ public class UI {
         FlechaSig.addActionListener(gm.ControladorA);
         FlechaSig.setActionCommand(comando);
         FlechaSig.setBorderPainted(false);
-        FlechaSig.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        });
         bgPanel[IndiceFondo].add(FlechaSig);
+
+
     }
 
 
-    public void crearTexto(String texto)
+
+    public void crearTexto(String texto, int indice)
     {
-        messageText = new JTextArea("Damián se apoyaba en la pared, aturdido y sin comprender lo que pasaba. La sangre que salía del cuerpo sin vida de Gabriel formaba un enorme charco a su alrededor, aunque parecía no notarlo.\n"  +
-                   "Con manos torpes y temblorosas tomó su celular y empezó a marcar, 9…1……..1\n" +
-                          "Un mensaje automático respondió el llamado, así que Damián espero a que uno de los operadores tome su llamada.");
+        messageText = new JTextArea(texto);
 
         messageText.setBounds(120,500,1000,200);
         messageText.setBackground(new Color(255,255,255,100));
@@ -75,7 +69,7 @@ public class UI {
         messageText.setWrapStyleWord(true);
         messageText.setFont(new Font("Tw Cen MT", Font.PLAIN, 16));
         messageText.setVisible(true);
-        bgPanel[1].add(messageText);
+        bgPanel[indice].add(messageText);
 
     }
 
@@ -84,7 +78,7 @@ public class UI {
         // Espacio del fondo
         bgPanel[indice] = new JPanel();
         bgPanel[indice].setBounds(0,0,1250,750);
-        bgPanel[indice].setBackground(Color.blue);
+        bgPanel[indice].setBackground(null);
         bgPanel[indice].setLayout(null);
         window.add(bgPanel[indice]);
 
@@ -93,6 +87,7 @@ public class UI {
         bgLabel[indice].setBounds(0,0,1250,750);
         ImageIcon bgIcon = new ImageIcon(getClass().getClassLoader().getResource(rutaDeImagen));
         bgLabel[indice].setIcon(bgIcon);
+
 
     }
 
@@ -105,6 +100,7 @@ public class UI {
         objeto.setIcon(ManuelIcon);
 
         /// esto hace que el objeto no quede abajo del fondo jeje
+
         bgPanel[indice].add(objeto); // el numero es el indice del fondo
 
     }
@@ -119,16 +115,5 @@ public class UI {
         /// esto hace que el objeto no quede abajo del fondo jeje
         bgPanel[indice].add(objeto); // el numero es el indice del fondo
 
-    }
-
-    public void GenerarPantalla()
-    {
-        //Fondo 1
-        createBackground(1,"FondoPasillo.png");
-        crearTexto("hola\n");
-        crearGabrielArchurado(1,"Gabriel_Achurado.png");
-        //crearObjeto(1,"Gabriel_Achurado.png");
-        crearFlechaSig(1,"FlechaDerecha.png","Siguiente");
-        bgPanel[1].add(bgLabel[1]);
     }
 }
