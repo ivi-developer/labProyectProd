@@ -43,9 +43,10 @@ public class UI {
 
     }
     
-    public void crearFlechaSig(int IndiceFondo, String rutaFlecha, String comandoButtons) { /// Recibe un string con la ruta a la imagen de la flecha{
-        ImageIcon flechita = new ImageIcon(Varios.class.getResource(rutaFlecha));
 
+    public void crearFlechaSig(int IndiceFondo, String rutaFlecha, String comandoButtons) { /// Recibe un string con la ruta a la imagen de la flecha{
+
+        ImageIcon flechita = new ImageIcon(Varios.class.getResource(rutaFlecha));
         JButton FlechaSig = new JButton();
         FlechaSig.setBounds(1115, 550, 100, 100);
         FlechaSig.setBackground(null);
@@ -62,10 +63,10 @@ public class UI {
 
 
 
+
     public void crearTexto(String textoParrafo, int indice)
     {
         messageText = new JTextArea(textoParrafo);
-
         messageText.setBounds(120,500,1000,200);
         messageText.setBackground(new Color(255,255,255,100));
         messageText.setForeground(Color.black);
@@ -141,6 +142,7 @@ public class UI {
 
     }
 
+
     public void crearEscenarioUnPersonaje(int indice, String textoParrafo, String rutaFondo, String rutaPersonaje, String comandoButtons){
 
         bgPanel[indice-1].setVisible(false);
@@ -179,6 +181,7 @@ public class UI {
 
 
     }
+
 
 
 }

@@ -1,3 +1,4 @@
+
 package Main;
 
 import java.awt.event.ActionEvent;
@@ -46,14 +47,4 @@ public class ControladorDeAcciones implements ActionListener {
     }
 
 
-
-
-
-
-
 }
-
-
-
-
-

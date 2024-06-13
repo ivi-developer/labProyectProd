@@ -1,4 +1,5 @@
 
+
 package Main;
 
 import imagenes.Fondos;
@@ -99,7 +100,6 @@ public class Historia {
     public int pagina5() {
         return 0;
     }
-
 
 
 }
