@@ -11,7 +11,7 @@ public class Principales extends Personajes{
     public static final String G_CHILL = "/personajes/principales/GabrielChill.png";
     public static final String G_COSTADO = "/personajes/principales/GabrielCostado.png";
     public static final String G_ENOJADO = "/personajes/principales/GabrielEnojado.png";
-    public static final String G_PODEROSO = "/personajes/principales/GabrielPoderoso.png";
+    public static final String G_PODEROSO = "/personajes/principales/GabrielPoderos.png";
 
     //MANUEL
     public static final String M_CEJA_ARQUEADA = "/personajes/principales/ManuelCejaArqueada.png";

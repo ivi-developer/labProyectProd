@@ -16,35 +16,61 @@ public class ControladorDeAcciones implements ActionListener {
 
     }
 
+
     public void actionPerformed(ActionEvent e) {
 
-        String opcion = e.getActionCommand();
+        int opcion = Integer.parseInt(e.getActionCommand());
         System.out.println(e.getActionCommand());
 
         switch(opcion)
         {
 
-            case "Pag1":gm.h.menu(2);break;
+            case 2:
+
+                gm.h.menu(2);
 
 
+                break;
 
+            case 3:{
 
-
-            case "Pag2":{
                 gm.h.menu(3);
+
                 break;
 
             }
 
-            case "Pag3":{
+            case 4:{
                 gm.h.menu(4);
                 break;
 
             }
+
+            case 5:{
+                gm.h.menu(5);
+                break;
+            }
+            case 6: {
+                System.out.println("Pene1");
+                gm.h.menu(6);
+            }
+                break;
+            case 7: {
+                gm.ui.bgPanel[5].setVisible(false);
+                System.out.println("Pene2");
+                gm.h.menu(7);
+            }
+                break;
+
+            case 8: {
+
+                System.out.println("Pene3");
+                gm.h.menu(8);
+            }
+                break;
         }
 
 
+
     }
-
-
 }
