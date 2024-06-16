@@ -1,0 +1,52 @@
+{
+  "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS": {
+    "descripcion": "Nuevo mapa desbloqueado: la China de Gengis",
+    "logrosTitle": "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS",
+    "estadoDeAcceso": "BLOQUEADO"
+  },
+  "CUANDO_LLEGA": {
+    "descripcion": "La empresa de trasporte no reporto salidas de unidades en este horario",
+    "logrosTitle": "CUANDO_LLEGA",
+    "estadoDeAcceso": "BLOQUEADO"
+  },
+  "CHIN_CHON_CHIN": {
+    "descripcion": "Manuel hablablo chino perfecto, vos solo entendias: ",
+    "logrosTitle": "CHIN_CHON_CHIN",
+    "estadoDeAcceso": "BLOQUEADO"
+  },
+  "FELIZ_ANIVERSARIO": {
+    "descripcion": "Tu primer año como agente en la YTP y no paras de romper logros",
+    "logrosTitle": "FELIZ_ANIVERSARIO",
+    "estadoDeAcceso": "BLOQUEADO"
+  },
+  "NO_ME_DEJAN_SALIR": {
+    "descripcion": "Estas verde pibe",
+    "logrosTitle": "NO_ME_DEJAN_SALIR",
+    "estadoDeAcceso": "BLOQUEADO"
+  },
+  "A_TRABAJAR": {
+    "descripcion": "Mr.Increible: ",
+    "logrosTitle": "A_TRABAJAR",
+    "estadoDeAcceso": "BLOQUEADO"
+  },
+  "IM_THE_ONE_WHO_KNOCKS": {
+    "descripcion": "Lo que yo propongo es un imperio",
+    "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+    "estadoDeAcceso": "BLOQUEADO"
+  },
+  "UNA_MUY_VIEJA_CONOCIDA": {
+    "descripcion": "Tu encuentro con el oraculo te da la sospecha de haber...soñado con ella?",
+    "logrosTitle": "UNA_MUY_VIEJA_CONOCIDA",
+    "estadoDeAcceso": "BLOQUEADO"
+  },
+  "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO": {
+    "descripcion": "De tu somnoliento viaje al mundo de los sueños te trajiste con vos una mausekeherramienta misteriosa",
+    "logrosTitle": "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO",
+    "estadoDeAcceso": "BLOQUEADO"
+  },
+  "ALGUNAS_COSAS": {
+    "descripcion": "Esa maldita frase",
+    "logrosTitle": "ALGUNAS_COSAS",
+    "estadoDeAcceso": "BLOQUEADO"
+  }
+}
