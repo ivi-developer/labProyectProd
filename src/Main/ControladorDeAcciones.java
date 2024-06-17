@@ -68,7 +68,23 @@ public class ControladorDeAcciones implements ActionListener {
                 gm.h.menu(8);
             }
                 break;
+
+            case 9: {
+                gm.h.menu(9);
+            }
+            break;
+
+            case 10: {
+                gm.h.menu(10);
+            }
+            break;
+
+            case 11: {
+                gm.h.menu(11);
+            }
         }
+
+
 
 
 

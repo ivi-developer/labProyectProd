@@ -82,15 +82,22 @@ public class UI {
     public void crearTexto(String textoParrafo, int indice)
     {
         messageText = new JTextArea(textoParrafo);
-        messageText.setBounds(120,500,1000,200);
-        messageText.setBackground(new Color(255,255,255,100));
+        //messageText.setBounds(120,500,1000,200);
+        //messageText.setBackground(new Color(255,255,255,100));
         messageText.setForeground(Color.black);
         messageText.setEditable(false);
+
         messageText.setLineWrap(true);
         messageText.setWrapStyleWord(true);
-        messageText.setFont(new Font("Tw Cen MT", Font.PLAIN, 16));
+        messageText.setFont(new Font("Verdana", Font.PLAIN, 16));
         messageText.setVisible(true);
-        bgPanel[indice].add(messageText);
+        JScrollPane jp = new JScrollPane(messageText);
+        jp.setBounds(120,500,1000,200);
+        jp.setBackground(new Color(255,255,255,100));
+        jp.setOpaque(false);
+        jp.getViewport().setOpaque(false);
+        jp.setBorder(BorderFactory.createEmptyBorder());
+        bgPanel[indice].add(jp);
 
 
     }
@@ -284,7 +291,7 @@ public class UI {
     {
 
         JButton botonIzq = new JButton();
-        botonIzq.setBounds(1115, 450, 100, 100);
+        botonIzq.setBounds(100, 400, 100, 100);
         botonIzq.setBackground(null);
         botonIzq.setFocusPainted(false);
         botonIzq.setContentAreaFilled(false);
@@ -299,7 +306,7 @@ public class UI {
     {
 
         JButton botonMid = new JButton();
-        botonMid.setBounds(1115, 500, 100, 100);
+        botonMid.setBounds(100, 300, 100, 100);
         botonMid.setBackground(null);
         botonMid.setFocusPainted(false);
         botonMid.setContentAreaFilled(false);
@@ -314,7 +321,7 @@ public class UI {
     {
 
         JButton botonDer = new JButton();
-        botonDer.setBounds(1115, 550, 100, 100);
+        botonDer.setBounds(100, 200, 100, 100);
         botonDer.setBackground(null);
         botonDer.setFocusPainted(false);
         botonDer.setContentAreaFilled(false);
@@ -348,9 +355,124 @@ public class UI {
             bgPanel[indice].add(gm.ui.bgLabel[indice]);
 
         }
+    }
 
+    public void JBotonTorre(int IndiceFondo, String comandoButtons)
+    {
+
+        JButton botonTorre = new JButton();
+        botonTorre.setBounds(617, 209, 100, 100);
+        botonTorre.setBackground(Color.red);
+        botonTorre.setFocusPainted(false);
+        botonTorre.setContentAreaFilled(false);
+        botonTorre.setText("Torre");
+        botonTorre.setFont(Font.getFont("Verdana"));
+        botonTorre.setFont(Font.getFont("Verdana"));
+        botonTorre.addActionListener(gm.ControladorA); /// controlador nuevo para estos buttons
+        botonTorre.setActionCommand(comandoButtons);
+        botonTorre.setBorderPainted(false);
+        bgPanel[IndiceFondo].add(botonTorre);
 
     }
 
+    public void JBotonRey(int IndiceFondo, String comandoButtons)
+    {
+        JButton botonRey = new JButton();
+        botonRey.setBounds(480, 55, 100, 100);
+        botonRey.setBackground(new Color(255,255,255,100));
+        botonRey.setFocusPainted(false);
+        botonRey.setContentAreaFilled(false);
+        botonRey.setText("rey");
+        botonRey.setFont(Font.getFont("Verdana"));
+        botonRey.addActionListener(gm.ControladorA); /// controlador nuevo para estos buttons
+        botonRey.setActionCommand(comandoButtons);
+        botonRey.setBorderPainted(false);
+        bgPanel[IndiceFondo].add(botonRey);
+    }
+
+
+    public void JBotonOscuridad(int IndiceFondo, String comandoButtons)
+    {
+        JButton botonOscuridad = new JButton();
+        botonOscuridad.setBounds(515, 132, 100, 100);
+        botonOscuridad.setBackground(new Color(255,255,255,100));
+        botonOscuridad.setFocusPainted(false);
+        botonOscuridad.setContentAreaFilled(false);
+        botonOscuridad.setText("Oscuridad");
+        botonOscuridad.setFont(Font.getFont("Verdana"));
+        botonOscuridad.addActionListener(gm.ControladorA); /// controlador nuevo para estos buttons
+        botonOscuridad.setActionCommand(comandoButtons);
+        botonOscuridad.setBorderPainted(false);
+        bgPanel[IndiceFondo].add(botonOscuridad);
+    }
+
+    public void generarEscenaHojasTorre(int indice, String textoParrafo, String rutaFondo, String comandoTorre,String rutaHoja)
+    {
+        if(bgPanel[indice -1] == null){
+            JBotonTorre(indice,comandoTorre);
+            createBackground(indice, rutaFondo);
+            crearTexto(textoParrafo,indice);
+            crearObjeto(indice, rutaHoja);
+
+            bgPanel[indice].add(gm.ui.bgLabel[indice]);
+        }
+        else{
+
+            bgPanel[indice-1].setVisible(false);
+            createBackground(indice, rutaFondo);
+            JBotonTorre(indice,comandoTorre);
+            crearObjeto(indice, rutaHoja);
+            crearTexto(textoParrafo,indice);
+
+            bgPanel[indice].add(gm.ui.bgLabel[indice]);
+
+        }
+    }
+
+    public void generarEscenaHojasRey(int indice, String textoParrafo, String rutaFondo, String comandoRey,String rutaHoja)
+    {
+        if(bgPanel[indice -1] == null){
+        JBotonRey(indice,comandoRey);
+        createBackground(indice, rutaFondo);
+        crearTexto(textoParrafo,indice);
+        crearObjeto(indice, rutaHoja);
+
+        bgPanel[indice].add(gm.ui.bgLabel[indice]);
+    }
+    else{
+
+        bgPanel[indice-1].setVisible(false);
+        createBackground(indice, rutaFondo);
+        JBotonRey(indice,comandoRey);
+        crearObjeto(indice, rutaHoja);
+        crearTexto(textoParrafo,indice);
+
+        bgPanel[indice].add(gm.ui.bgLabel[indice]);
+
+    }
+    }
+
+    public void generarEscenaHojasOscuridad(int indice, String textoParrafo, String rutaFondo, String comandoOscuridad,String rutaHoja)
+    {
+        if(bgPanel[indice -1] == null){
+            JBotonOscuridad(indice,comandoOscuridad);
+            createBackground(indice, rutaFondo);
+            crearTexto(textoParrafo,indice);
+            crearObjeto(indice, rutaHoja);
+
+            bgPanel[indice].add(gm.ui.bgLabel[indice]);
+        }
+        else{
+
+            bgPanel[indice-1].setVisible(false);
+            createBackground(indice, rutaFondo);
+            JBotonOscuridad(indice,comandoOscuridad);
+            crearObjeto(indice, rutaHoja);
+            crearTexto(textoParrafo,indice);
+
+            bgPanel[indice].add(gm.ui.bgLabel[indice]);
+
+        }
+    }
 
 }

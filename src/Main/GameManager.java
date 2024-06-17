@@ -3,11 +3,13 @@ package Main;
 
 import Discarted.ControladorDeAcciones3Botones;
 
-public class GameManager {
+public class GameManager  {
+
+
 
     ControladorDeAcciones ControladorA = new ControladorDeAcciones(this);
     ControladorDeAcciones2 ControladorB = new ControladorDeAcciones2(this);
-    ControladorDeAcciones3Botones Controlador3 = new ControladorDeAcciones3Botones(this);
+
     public UI ui = new UI(this);
     public Historia h = new Historia(this);
 
@@ -17,8 +19,8 @@ public class GameManager {
 
         GameManager gm = new GameManager();
         Historia h = new Historia(gm);
-       // gm.nuevaPartida();
-        gm.cargarPartida(5);
+        gm.nuevaPartida();
+       // gm.cargarPartida(5);
 
     }
 
@@ -38,6 +40,7 @@ public class GameManager {
         h.menu(checkpoint);
         ui.window.setVisible(true); // ESTO HACE QUE LA VENTANA SE MUESTRE DESPUES DE CREAR LA VIÑETA CON LA HISTORIA.
     }
+
 
 
 }

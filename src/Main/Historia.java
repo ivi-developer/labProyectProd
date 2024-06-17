@@ -51,8 +51,18 @@ public class Historia{
                     pagina7();
                     break;
                 case 8:
-
+                    pagina8();
                     break;
+                case 9:
+                    pagina9();
+                    break;
+                case 10:
+                    pagina10();
+                    break;
+                case 11:
+                    pagina11();
+                    break;
+
 
                 default:
                     break;
@@ -132,6 +142,2361 @@ public class Historia{
         gm.ui.crearEscenarioDosPersonajes(7, pag7, Fondos.F_COMICCON, Principales.D_COSTADO, Principales.P_APUNTANDO, "8",null);
     }
 
+    public void pagina8()
+    {
+        String pag8=("Torres...");
+        gm.ui.generarEscenaHojasTorre(8,pag8, Fondos.F_OFICINA,"9",Varios.HOJA_TORRE);
+    }
+
+    public void pagina9()
+    {
+        String pag9 = ("Oscuridad ...");
+        gm.ui.generarEscenaHojasOscuridad(9,pag9,Fondos.F_OFICINA,"10",Varios.HOJA_OSCURA);
+    }
+
+    public void pagina10()
+    {
+        String pag10 = ("Reyes...");
+        gm.ui.generarEscenaHojasRey(10,pag10, Fondos.F_OFICINA,"11",Varios.HOJA_REY);
+    }
+
+    public void pagina11()
+    {
+        String pag11 = ("A");
+       // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina12()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina13()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina14()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina15()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina16()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina17()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina18()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina19()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina20()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina21()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina22()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina23()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina24()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina25()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina26()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina27()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+
+    public void pagina28()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina29()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina30()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina31()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina32()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
+    public void pagina33()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina34()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina35()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina36()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina37()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina38()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina39()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina40()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina41()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina42()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina43()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina44()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina45()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina1146()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina47()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina48()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina49()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina50()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina51()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina52()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina53()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina54()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina55()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina56()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina57()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina58()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina59()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina60()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina61()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina62()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina63()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina64()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina65()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina66()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina67()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina68()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina69()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina70()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina71()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina72()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina73()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina74()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina75()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina76()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina77()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina78()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina79()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina80()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina81()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina82()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina83()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina84()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina85()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina86()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina87()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina88()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina89()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina90()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina91()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina92()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina93()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina94()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina95()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina96()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina97()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina98()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina99()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina100()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina101()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina102()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina103()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina104()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina105()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina106()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina107()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina108()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina109)
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina110()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina111()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina112()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina113()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina114()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina115()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina116()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina117()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina118()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina119()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina120()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina121()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina121()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina122()
+
+        String pag122 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina123()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina124()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina125
+        ()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina126()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina127()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina128()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina129()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina130()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina131()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina132()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina133()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina134()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina135()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina136()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina136()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina137()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina138()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina139()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina140()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina141()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina142()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina143()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina144()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina145()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina146()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina147()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina148()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina149()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina150()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina151()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina152()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina153()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina154()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina155()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina156()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina157()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina158()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina159()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina160()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina161()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina162()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina163()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina164()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina165()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina166()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina167()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina168()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina169()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina170()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina171()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina172()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina173()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina174()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina175()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina176()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina177()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina178()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina179()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina180()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina181()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina182()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina183()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina184()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina185()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina1186()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina187()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina188()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina189()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina190()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina191()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina192()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina193()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina194()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina195()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina196()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina197()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina198()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina199()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina200()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina201()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina202()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina203()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina204()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina205()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina206()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina207()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina208()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina209()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagin210()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina211()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina212()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina213()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina214()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina215()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina216()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina217()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina218()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina219()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina220()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina221()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina222()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina223()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina224()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina225()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina226()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina227()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina228()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina229()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina230()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina231()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina232()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina233()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina234()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina235()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina236()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina237()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina238()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina239()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina240()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina241()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina242()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina243()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina244()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina245()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina246()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina247()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }public void pagina11()
+    {
+        String pag11 = ("A");
+        // gm.ui.crearEscenarioUnPersonaje();
+    }
 
 
 
