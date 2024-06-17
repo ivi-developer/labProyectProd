@@ -16,6 +16,7 @@ public class HashmapHandler<T,U> {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(filePath))) {
             gson.toJson(hashMap, bufferedWriter);
+
         } catch (IOException e) {
             System.out.println("Error guardando: " + e.getMessage());
         }

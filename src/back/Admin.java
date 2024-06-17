@@ -2,6 +2,8 @@ package back;
 
 import com.google.gson.reflect.TypeToken;
 
+import javax.swing.*;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -20,7 +22,10 @@ public class Admin extends User{
         agregarPlayer(player);
         guardarPLayers();
     }
-    private void setPlayers(){players=new HashmapHandler<>(players.recibirHashmapDesdeJson(ARCHIVO_JUGADORES,new TypeToken<HashMap<String, Player>>() {}.getType()));}
+    private void setPlayers(){
+        players=new HashmapHandler<>(players.recibirHashmapDesdeJson(ARCHIVO_JUGADORES,new TypeToken<HashMap<String, Player>>() {}.getType()));
+
+    }
     public void guardarPLayers(){players.cargarHashmapAJson(ARCHIVO_JUGADORES);}
     private void setNickPrivado(Player player){//ESTE SET NICK SE USA PARA VALIDAR EL NICK
         String nick;
@@ -92,29 +97,41 @@ public class Admin extends User{
         }
     }
     private Player cargarUsuarioPrivado(String nombre,String password)throws RuntimeException{
-        if(players.existe(nombre)){
-            if(players.getHashMap().get(nombre).getPassword().equals(password)){
-                return players.getHashMap().get(nombre);
-            }else throw new RuntimeException("Contrasenia incorrecta");
-        }else throw new RuntimeException("No se encontro un usuario con ese nick");
+        if(players.existe(nombre)) {
+            if (players.getHashMap().get(nombre).getPassword().equals(password)) {
+                return players.devolverValue(nombre);
+            } else throw new ContraseñaIncorrectaException("Contraseña incorrecta");
+        }else throw new UsuarioNoEncontradoException("Jugador no encontrado");
     }
-    private Player cargarUsuarioPrivadoPlus(String nombre,String password){
+    public Player cargarUsuario(String nombre,String password){
         try{
             return cargarUsuarioPrivado(nombre,password);
         }catch (RuntimeException e){
-            e.getMessage();
+            //System.out.println(e.getMessage());
+            Icon iconoError= UIManager.getIcon("OptionPane.errorIcon");
+            JOptionPane.showMessageDialog(null, e.getMessage(),"Error de Login", JOptionPane.ERROR_MESSAGE, iconoError);
+
+
         }
         return null;
     }
-    public void cargarUsario(){
-        Player player=null;
-        do{
-            Scanner scanner=new Scanner(System.in);
-            System.out.println("Ingrese su nombre de usuario: ");
-            String nick=scanner.nextLine();
-            System.out.println("Ingrese su contrasenia");
-            String password=scanner.nextLine();
-            player=cargarUsuarioPrivadoPlus(nick,password);
-        }while (player==null);
+
+    @Override
+    public String toString() {
+        return "Admin{" +
+                "players=" + players +
+                ", playersBorrados=" + playersBorrados +
+                '}';
     }
+    //    public void cargarUsario(){
+//        Player player=null;
+//        do{
+//            Scanner scanner=new Scanner(System.in);
+//            System.out.println("Ingrese su nombre de usuario: ");
+//            String nick=scanner.nextLine();
+//            System.out.println("Ingrese su contrasenia");
+//            String password=scanner.nextLine();
+//            player=cargarUsuarioPrivadoPlus(nick,password);
+//        }while (player==null);
+//    }
 }

@@ -4,8 +4,35 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main{
-    public static void main(String[] args){menu();}
+    public static void main(String[] args) {
+
+        Login login = new Login();
+    }
     public static void menu(){
+
+
+        //Login loginForm= new Login();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+        loginForm.crearMainField();
+        loginForm.createBackground(1, "PortadaJuego.png");
+        loginForm.window.setVisible(true);
+
+
         Admin admin=new Admin();
         Scanner scanner=new Scanner(System.in);
         do{
@@ -29,6 +56,8 @@ public class Main{
             }
         }while(!scanner.next().equalsIgnoreCase("n"));
         scanner.close();
+
+         */
     }
 
 }
