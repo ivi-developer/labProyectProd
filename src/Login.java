@@ -1,4 +1,5 @@
 import back.Admin;
+import back.CrearUsuario;
 import back.MenuU;
 import back.Player;
 
@@ -63,8 +64,10 @@ public class Login extends JDialog{
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                System.out.println("PENE");
-                /// se llama a lo que haga crear el usuario
+                window.dispose();
+
+                new CrearUsuario();
+
             }
         });
     }
