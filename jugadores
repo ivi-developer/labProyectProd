@@ -2,6 +2,21 @@
   "pablin": {
     "logros": {
       "hashMap": {
+        "NO_ME_DEJAN_SALIR": {
+          "descripcion": "Estas verde pibe",
+          "logrosTitle": "NO_ME_DEJAN_SALIR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "A_TRABAJAR": {
+          "descripcion": "Mr.Increible: ",
+          "logrosTitle": "A_TRABAJAR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "IM_THE_ONE_WHO_KNOCKS": {
+          "descripcion": "Lo que yo propongo es un imperio",
+          "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
         "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS": {
           "descripcion": "Nuevo mapa desbloqueado: la China de Gengis",
           "logrosTitle": "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS",
@@ -17,24 +32,14 @@
           "logrosTitle": "CHIN_CHON_CHIN",
           "estadoDeAcceso": "BLOQUEADO"
         },
-        "NO_ME_DEJAN_SALIR": {
-          "descripcion": "Estas verde pibe",
-          "logrosTitle": "NO_ME_DEJAN_SALIR",
-          "estadoDeAcceso": "BLOQUEADO"
-        },
         "FELIZ_ANIVERSARIO": {
           "descripcion": "Tu primer año como agente en la YTP y no paras de romper logros",
           "logrosTitle": "FELIZ_ANIVERSARIO",
           "estadoDeAcceso": "BLOQUEADO"
         },
-        "A_TRABAJAR": {
-          "descripcion": "Mr.Increible: ",
-          "logrosTitle": "A_TRABAJAR",
-          "estadoDeAcceso": "BLOQUEADO"
-        },
-        "IM_THE_ONE_WHO_KNOCKS": {
-          "descripcion": "Lo que yo propongo es un imperio",
-          "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+        "ALGUNAS_COSAS": {
+          "descripcion": "Esa maldita frase",
+          "logrosTitle": "ALGUNAS_COSAS",
           "estadoDeAcceso": "BLOQUEADO"
         },
         "UNA_MUY_VIEJA_CONOCIDA": {
@@ -45,22 +50,33 @@
         "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO": {
           "descripcion": "De tu somnoliento viaje al mundo de los sueños te trajiste con vos una mausekeherramienta misteriosa",
           "logrosTitle": "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO",
-          "estadoDeAcceso": "BLOQUEADO"
-        },
-        "ALGUNAS_COSAS": {
-          "descripcion": "Esa maldita frase",
-          "logrosTitle": "ALGUNAS_COSAS",
           "estadoDeAcceso": "BLOQUEADO"
         }
       }
     },
     "puntoGuardado": 0,
     "nick": "pablin",
-    "password": "la"
+    "password": "la",
+    "estadoDeAcceso": "DESBLOQUEADO"
   },
   "luchi": {
     "logros": {
       "hashMap": {
+        "NO_ME_DEJAN_SALIR": {
+          "descripcion": "Estas verde pibe",
+          "logrosTitle": "NO_ME_DEJAN_SALIR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "A_TRABAJAR": {
+          "descripcion": "Mr.Increible: ",
+          "logrosTitle": "A_TRABAJAR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "IM_THE_ONE_WHO_KNOCKS": {
+          "descripcion": "Lo que yo propongo es un imperio",
+          "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
         "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS": {
           "descripcion": "Nuevo mapa desbloqueado: la China de Gengis",
           "logrosTitle": "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS",
@@ -76,24 +92,14 @@
           "logrosTitle": "CHIN_CHON_CHIN",
           "estadoDeAcceso": "BLOQUEADO"
         },
-        "NO_ME_DEJAN_SALIR": {
-          "descripcion": "Estas verde pibe",
-          "logrosTitle": "NO_ME_DEJAN_SALIR",
-          "estadoDeAcceso": "BLOQUEADO"
-        },
         "FELIZ_ANIVERSARIO": {
           "descripcion": "Tu primer año como agente en la YTP y no paras de romper logros",
           "logrosTitle": "FELIZ_ANIVERSARIO",
           "estadoDeAcceso": "BLOQUEADO"
         },
-        "A_TRABAJAR": {
-          "descripcion": "Mr.Increible: ",
-          "logrosTitle": "A_TRABAJAR",
-          "estadoDeAcceso": "BLOQUEADO"
-        },
-        "IM_THE_ONE_WHO_KNOCKS": {
-          "descripcion": "Lo que yo propongo es un imperio",
-          "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+        "ALGUNAS_COSAS": {
+          "descripcion": "Esa maldita frase",
+          "logrosTitle": "ALGUNAS_COSAS",
           "estadoDeAcceso": "BLOQUEADO"
         },
         "UNA_MUY_VIEJA_CONOCIDA": {
@@ -104,22 +110,33 @@
         "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO": {
           "descripcion": "De tu somnoliento viaje al mundo de los sueños te trajiste con vos una mausekeherramienta misteriosa",
           "logrosTitle": "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO",
-          "estadoDeAcceso": "BLOQUEADO"
-        },
-        "ALGUNAS_COSAS": {
-          "descripcion": "Esa maldita frase",
-          "logrosTitle": "ALGUNAS_COSAS",
           "estadoDeAcceso": "BLOQUEADO"
         }
       }
     },
     "puntoGuardado": 0,
     "nick": "luchi",
-    "password": "la"
+    "password": "la",
+    "estadoDeAcceso": "DESBLOQUEADO"
   },
   "marcos": {
     "logros": {
       "hashMap": {
+        "NO_ME_DEJAN_SALIR": {
+          "descripcion": "Estas verde pibe",
+          "logrosTitle": "NO_ME_DEJAN_SALIR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "A_TRABAJAR": {
+          "descripcion": "Mr.Increible: ",
+          "logrosTitle": "A_TRABAJAR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "IM_THE_ONE_WHO_KNOCKS": {
+          "descripcion": "Lo que yo propongo es un imperio",
+          "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
         "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS": {
           "descripcion": "Nuevo mapa desbloqueado: la China de Gengis",
           "logrosTitle": "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS",
@@ -135,24 +152,14 @@
           "logrosTitle": "CHIN_CHON_CHIN",
           "estadoDeAcceso": "BLOQUEADO"
         },
-        "NO_ME_DEJAN_SALIR": {
-          "descripcion": "Estas verde pibe",
-          "logrosTitle": "NO_ME_DEJAN_SALIR",
-          "estadoDeAcceso": "BLOQUEADO"
-        },
         "FELIZ_ANIVERSARIO": {
           "descripcion": "Tu primer año como agente en la YTP y no paras de romper logros",
           "logrosTitle": "FELIZ_ANIVERSARIO",
           "estadoDeAcceso": "BLOQUEADO"
         },
-        "A_TRABAJAR": {
-          "descripcion": "Mr.Increible: ",
-          "logrosTitle": "A_TRABAJAR",
-          "estadoDeAcceso": "BLOQUEADO"
-        },
-        "IM_THE_ONE_WHO_KNOCKS": {
-          "descripcion": "Lo que yo propongo es un imperio",
-          "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+        "ALGUNAS_COSAS": {
+          "descripcion": "Esa maldita frase",
+          "logrosTitle": "ALGUNAS_COSAS",
           "estadoDeAcceso": "BLOQUEADO"
         },
         "UNA_MUY_VIEJA_CONOCIDA": {
@@ -164,21 +171,32 @@
           "descripcion": "De tu somnoliento viaje al mundo de los sueños te trajiste con vos una mausekeherramienta misteriosa",
           "logrosTitle": "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO",
           "estadoDeAcceso": "BLOQUEADO"
-        },
-        "ALGUNAS_COSAS": {
-          "descripcion": "Esa maldita frase",
-          "logrosTitle": "ALGUNAS_COSAS",
-          "estadoDeAcceso": "BLOQUEADO"
         }
       }
     },
     "puntoGuardado": 0,
     "nick": "marcos",
-    "password": "lala"
+    "password": "lala",
+    "estadoDeAcceso": "DESBLOQUEADO"
   },
-  "ivi": {
+  "cacas": {
     "logros": {
       "hashMap": {
+        "NO_ME_DEJAN_SALIR": {
+          "descripcion": "Estas verde pibe",
+          "logrosTitle": "NO_ME_DEJAN_SALIR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "A_TRABAJAR": {
+          "descripcion": "Mr.Increible: ",
+          "logrosTitle": "A_TRABAJAR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "IM_THE_ONE_WHO_KNOCKS": {
+          "descripcion": "Lo que yo propongo es un imperio",
+          "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
         "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS": {
           "descripcion": "Nuevo mapa desbloqueado: la China de Gengis",
           "logrosTitle": "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS",
@@ -194,14 +212,39 @@
           "logrosTitle": "CHIN_CHON_CHIN",
           "estadoDeAcceso": "BLOQUEADO"
         },
-        "NO_ME_DEJAN_SALIR": {
-          "descripcion": "Estas verde pibe",
-          "logrosTitle": "NO_ME_DEJAN_SALIR",
-          "estadoDeAcceso": "BLOQUEADO"
-        },
         "FELIZ_ANIVERSARIO": {
           "descripcion": "Tu primer año como agente en la YTP y no paras de romper logros",
           "logrosTitle": "FELIZ_ANIVERSARIO",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "ALGUNAS_COSAS": {
+          "descripcion": "Esa maldita frase",
+          "logrosTitle": "ALGUNAS_COSAS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "UNA_MUY_VIEJA_CONOCIDA": {
+          "descripcion": "Tu encuentro con el oraculo te da la sospecha de haber...soñado con ella?",
+          "logrosTitle": "UNA_MUY_VIEJA_CONOCIDA",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO": {
+          "descripcion": "De tu somnoliento viaje al mundo de los sueños te trajiste con vos una mausekeherramienta misteriosa",
+          "logrosTitle": "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO",
+          "estadoDeAcceso": "BLOQUEADO"
+        }
+      }
+    },
+    "puntoGuardado": 0,
+    "nick": "cacas",
+    "password": "lala",
+    "estadoDeAcceso": "DESBLOQUEADO"
+  },
+  "marquin23": {
+    "logros": {
+      "hashMap": {
+        "NO_ME_DEJAN_SALIR": {
+          "descripcion": "Estas verde pibe",
+          "logrosTitle": "NO_ME_DEJAN_SALIR",
           "estadoDeAcceso": "BLOQUEADO"
         },
         "A_TRABAJAR": {
@@ -212,6 +255,150 @@
         "IM_THE_ONE_WHO_KNOCKS": {
           "descripcion": "Lo que yo propongo es un imperio",
           "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS": {
+          "descripcion": "Nuevo mapa desbloqueado: la China de Gengis",
+          "logrosTitle": "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "CUANDO_LLEGA": {
+          "descripcion": "La empresa de trasporte no reporto salidas de unidades en este horario",
+          "logrosTitle": "CUANDO_LLEGA",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "CHIN_CHON_CHIN": {
+          "descripcion": "Manuel hablablo chino perfecto, vos solo entendias: ",
+          "logrosTitle": "CHIN_CHON_CHIN",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "FELIZ_ANIVERSARIO": {
+          "descripcion": "Tu primer año como agente en la YTP y no paras de romper logros",
+          "logrosTitle": "FELIZ_ANIVERSARIO",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "ALGUNAS_COSAS": {
+          "descripcion": "Esa maldita frase",
+          "logrosTitle": "ALGUNAS_COSAS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "UNA_MUY_VIEJA_CONOCIDA": {
+          "descripcion": "Tu encuentro con el oraculo te da la sospecha de haber...soñado con ella?",
+          "logrosTitle": "UNA_MUY_VIEJA_CONOCIDA",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO": {
+          "descripcion": "De tu somnoliento viaje al mundo de los sueños te trajiste con vos una mausekeherramienta misteriosa",
+          "logrosTitle": "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO",
+          "estadoDeAcceso": "BLOQUEADO"
+        }
+      }
+    },
+    "puntoGuardado": 0,
+    "nick": "marquin23",
+    "estadoDeAcceso": "DESBLOQUEADO"
+  },
+  "juan": {
+    "logros": {
+      "hashMap": {
+        "A_TRABAJAR": {
+          "descripcion": "Mr.Increible: ",
+          "logrosTitle": "A_TRABAJAR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "NO_ME_DEJAN_SALIR": {
+          "descripcion": "Estas verde pibe",
+          "logrosTitle": "NO_ME_DEJAN_SALIR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "IM_THE_ONE_WHO_KNOCKS": {
+          "descripcion": "Lo que yo propongo es un imperio",
+          "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS": {
+          "descripcion": "Nuevo mapa desbloqueado: la China de Gengis",
+          "logrosTitle": "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "CHIN_CHON_CHIN": {
+          "descripcion": "Manuel hablablo chino perfecto, vos solo entendias: ",
+          "logrosTitle": "CHIN_CHON_CHIN",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "CUANDO_LLEGA": {
+          "descripcion": "La empresa de trasporte no reporto salidas de unidades en este horario",
+          "logrosTitle": "CUANDO_LLEGA",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "FELIZ_ANIVERSARIO": {
+          "descripcion": "Tu primer año como agente en la YTP y no paras de romper logros",
+          "logrosTitle": "FELIZ_ANIVERSARIO",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "ALGUNAS_COSAS": {
+          "descripcion": "Esa maldita frase",
+          "logrosTitle": "ALGUNAS_COSAS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "UNA_MUY_VIEJA_CONOCIDA": {
+          "descripcion": "Tu encuentro con el oraculo te da la sospecha de haber...soñado con ella?",
+          "logrosTitle": "UNA_MUY_VIEJA_CONOCIDA",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO": {
+          "descripcion": "De tu somnoliento viaje al mundo de los sueños te trajiste con vos una mausekeherramienta misteriosa",
+          "logrosTitle": "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO",
+          "estadoDeAcceso": "BLOQUEADO"
+        }
+      }
+    },
+    "puntoGuardado": 0,
+    "nick": "juan",
+    "password": "pene",
+    "estadoDeAcceso": "DESBLOQUEADO"
+  },
+  "ivi": {
+    "logros": {
+      "hashMap": {
+        "NO_ME_DEJAN_SALIR": {
+          "descripcion": "Estas verde pibe",
+          "logrosTitle": "NO_ME_DEJAN_SALIR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "A_TRABAJAR": {
+          "descripcion": "Mr.Increible: ",
+          "logrosTitle": "A_TRABAJAR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "IM_THE_ONE_WHO_KNOCKS": {
+          "descripcion": "Lo que yo propongo es un imperio",
+          "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS": {
+          "descripcion": "Nuevo mapa desbloqueado: la China de Gengis",
+          "logrosTitle": "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "CUANDO_LLEGA": {
+          "descripcion": "La empresa de trasporte no reporto salidas de unidades en este horario",
+          "logrosTitle": "CUANDO_LLEGA",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "CHIN_CHON_CHIN": {
+          "descripcion": "Manuel hablablo chino perfecto, vos solo entendias: ",
+          "logrosTitle": "CHIN_CHON_CHIN",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "FELIZ_ANIVERSARIO": {
+          "descripcion": "Tu primer año como agente en la YTP y no paras de romper logros",
+          "logrosTitle": "FELIZ_ANIVERSARIO",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "ALGUNAS_COSAS": {
+          "descripcion": "Esa maldita frase",
+          "logrosTitle": "ALGUNAS_COSAS",
           "estadoDeAcceso": "BLOQUEADO"
         },
         "UNA_MUY_VIEJA_CONOCIDA": {
@@ -223,16 +410,71 @@
           "descripcion": "De tu somnoliento viaje al mundo de los sueños te trajiste con vos una mausekeherramienta misteriosa",
           "logrosTitle": "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO",
           "estadoDeAcceso": "BLOQUEADO"
-        },
-        "ALGUNAS_COSAS": {
-          "descripcion": "Esa maldita frase",
-          "logrosTitle": "ALGUNAS_COSAS",
-          "estadoDeAcceso": "BLOQUEADO"
         }
       }
     },
     "puntoGuardado": 0,
     "nick": "ivi",
-    "password": "la"
+    "password": "la",
+    "estadoDeAcceso": "DESBLOQUEADO"
+  },
+  "marquin": {
+    "logros": {
+      "hashMap": {
+        "NO_ME_DEJAN_SALIR": {
+          "descripcion": "Estas verde pibe",
+          "logrosTitle": "NO_ME_DEJAN_SALIR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "A_TRABAJAR": {
+          "descripcion": "Mr.Increible: ",
+          "logrosTitle": "A_TRABAJAR",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "IM_THE_ONE_WHO_KNOCKS": {
+          "descripcion": "Lo que yo propongo es un imperio",
+          "logrosTitle": "IM_THE_ONE_WHO_KNOCKS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS": {
+          "descripcion": "Nuevo mapa desbloqueado: la China de Gengis",
+          "logrosTitle": "BIENVENIDOS_AL_ABISMO_DE_LOS_LAMENTOS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "CUANDO_LLEGA": {
+          "descripcion": "La empresa de trasporte no reporto salidas de unidades en este horario",
+          "logrosTitle": "CUANDO_LLEGA",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "CHIN_CHON_CHIN": {
+          "descripcion": "Manuel hablablo chino perfecto, vos solo entendias: ",
+          "logrosTitle": "CHIN_CHON_CHIN",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "FELIZ_ANIVERSARIO": {
+          "descripcion": "Tu primer año como agente en la YTP y no paras de romper logros",
+          "logrosTitle": "FELIZ_ANIVERSARIO",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "ALGUNAS_COSAS": {
+          "descripcion": "Esa maldita frase",
+          "logrosTitle": "ALGUNAS_COSAS",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "UNA_MUY_VIEJA_CONOCIDA": {
+          "descripcion": "Tu encuentro con el oraculo te da la sospecha de haber...soñado con ella?",
+          "logrosTitle": "UNA_MUY_VIEJA_CONOCIDA",
+          "estadoDeAcceso": "BLOQUEADO"
+        },
+        "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO": {
+          "descripcion": "De tu somnoliento viaje al mundo de los sueños te trajiste con vos una mausekeherramienta misteriosa",
+          "logrosTitle": "ENCUENTROS_CERCANOS_DEL_TERCER_TIPO",
+          "estadoDeAcceso": "BLOQUEADO"
+        }
+      }
+    },
+    "puntoGuardado": 0,
+    "nick": "marquin",
+    "estadoDeAcceso": "DESBLOQUEADO"
   }
 }

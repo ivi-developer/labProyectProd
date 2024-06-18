@@ -1,6 +1,6 @@
 package back;
 public abstract class User{
-    protected static final String ARCHIVO_JUGADORES="jugadores";
+    protected static final String ARCHIVO_JUGADORES="./jugadores";
     protected static final String ARCHIVO_LOGROS="logros";
     protected static final String PAPELERA_JUGADORES="jugadoresBorrados";
     private String nick;

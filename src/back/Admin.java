@@ -2,6 +2,8 @@ package back;
 
 import com.google.gson.reflect.TypeToken;
 
+import javax.swing.*;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -13,38 +15,51 @@ public class Admin extends User{
         setPassword("Admin");
         setPlayers();
     }
-    public void crearPlayer(){
+    public Player crearPlayer(String nombre,String password,String confirmacionPassword){
         Player player=new Player();
-        setNickPrivado(player);
-        setPasswordPrivado(player);
-        agregarPlayer(player);
-        guardarPLayers();
+
+            try {
+                setNickPrivado(nombre, player);
+                setPasswordPrivado(password, confirmacionPassword, player);
+                agregarPlayer(player);
+                guardarPLayers();
+            }
+            catch(RuntimeException e){
+                Icon iconoError= UIManager.getIcon("OptionPane.errorIcon");
+                JOptionPane.showMessageDialog(null, e.getMessage(),"Error creando usuario", JOptionPane.ERROR_MESSAGE, iconoError);
+               return null;
+            }
+        return player;
     }
-    private void setPlayers(){players=new HashmapHandler<>(players.recibirHashmapDesdeJson(ARCHIVO_JUGADORES,new TypeToken<HashMap<String, Player>>() {}.getType()));}
+    private void setPlayers(){
+        players=new HashmapHandler<>(players.recibirHashmapDesdeJson(ARCHIVO_JUGADORES,new TypeToken<HashMap<String, Player>>() {}.getType()));
+    }
     public void guardarPLayers(){players.cargarHashmapAJson(ARCHIVO_JUGADORES);}
-    private void setNickPrivado(Player player){//ESTE SET NICK SE USA PARA VALIDAR EL NICK
-        String nick;
-        System.out.println("Ingrese su nick");
-        Scanner scanner=new Scanner(System.in);
-        nick =scanner.nextLine();
-        if(players.existe(nick)) {
-            StringBuilder sb=new StringBuilder();
-            sb.append("El nick '").append(nick).append("'").append(" ya existe, pruebe otro");
-            System.out.println(sb);
-            setNickPrivado(player);
+//    private void setNickA(String nombre,Player player){
+//        try{
+//            setNickPrivado(nombre,player);
+//        }catch (UsuarioExistenteException e) {
+//            Icon iconoError= UIManager.getIcon("OptionPane.errorIcon");
+//            JOptionPane.showMessageDialog(null, e.getMessage(),"Error creando usuario", JOptionPane.ERROR_MESSAGE, iconoError);
+//        }
+//    }
+    private void setNickPrivado(String nombre,Player player){//ESTE SET NICK SE USA PARA VALIDAR EL NICK
+        if(players.existe(nombre)) {
+           throw new UsuarioExistenteException(nombre);
         }
-        else setNick(nick,player);//EL SET NICK QUE PIDE UN PLAYER LE SETEA ESE NICK A ESE PLAYER
+        else setNick(nombre,player);//EL SET NICK QUE PIDE UN PLAYER LE SETEA ESE NICK A ESE PLAYER
     }
-    private void setPasswordPrivado(Player player){//ESTE SET PASSWORD VERIFICA LA PASSWORD
-        System.out.println("Ingrese una contrasenia");
-        Scanner scanner=new Scanner(System.in);
-        String contrasenia= scanner.nextLine();
-        System.out.println("Confirme la contrasenia");
-        if(scanner.nextLine().equals(contrasenia))setPassword(contrasenia,player);//EL SET PASSWORD QUE PIDE UN PLAYER LE SETEA ESA PASSWORD A ESE PLAYER
-        else {
-            System.out.println("las contrasenias no coinciden pruebe de vuelta");
-            setPasswordPrivado(player);
-        }
+//    private void setPassword(String password,String confirmacionPassword,Player player ){
+//        try{
+//            setPasswordPrivado(password,confirmacionPassword,player);
+//        }catch (ContraseniaNoCoincideException e){
+//            Icon iconoError= UIManager.getIcon("OptionPane.errorIcon");
+//            JOptionPane.showMessageDialog(null, e.getMessage(),"Error creando usuario", JOptionPane.ERROR_MESSAGE, iconoError);
+//        }
+//    }
+    private void setPasswordPrivado(String password,String confirmacionPassword,Player player){//ESTE SET PASSWORD VERIFICA LA PASSWORD
+        if(password.equals(confirmacionPassword))setPassword(password,player);//EL SET PASSWORD QUE PIDE UN PLAYER LE SETEA ESA PASSWORD A ESE PLAYER
+        else{throw new ContraseniaNoCoincideException();}
     }
     private void setNick(String nick,Player player){player.setNick(nick);}
     public Player getPlayer(String nick){return players.devolverValue(nick);}
@@ -92,29 +107,38 @@ public class Admin extends User{
         }
     }
     private Player cargarUsuarioPrivado(String nombre,String password)throws RuntimeException{
-        if(players.existe(nombre)){
-            if(players.getHashMap().get(nombre).getPassword().equals(password)){
-                return players.getHashMap().get(nombre);
-            }else throw new RuntimeException("Contrasenia incorrecta");
-        }else throw new RuntimeException("No se encontro un usuario con ese nick");
+        if(players.existe(nombre)) {
+            if (players.getHashMap().get(nombre).getPassword().equals(password)) {
+                return players.devolverValue(nombre);
+            } else throw new ContraseñaIncorrectaException("Contraseña incorrecta");
+        }else throw new UsuarioNoEncontradoException("Jugador no encontrado");
     }
-    private Player cargarUsuarioPrivadoPlus(String nombre,String password){
+    public Player cargarUsuario(String nombre,String password){
         try{
             return cargarUsuarioPrivado(nombre,password);
-        }catch (RuntimeException e){
-            e.getMessage();
+        }catch (ContraseñaIncorrectaException|UsuarioNoEncontradoException e){
+            Icon iconoError= UIManager.getIcon("OptionPane.errorIcon");
+            JOptionPane.showMessageDialog(null, e.getMessage(),"Error de Login", JOptionPane.ERROR_MESSAGE, iconoError);
         }
         return null;
     }
-    public void cargarUsario(){
-        Player player=null;
-        do{
-            Scanner scanner=new Scanner(System.in);
-            System.out.println("Ingrese su nombre de usuario: ");
-            String nick=scanner.nextLine();
-            System.out.println("Ingrese su contrasenia");
-            String password=scanner.nextLine();
-            player=cargarUsuarioPrivadoPlus(nick,password);
-        }while (player==null);
+
+    @Override
+    public String toString() {
+        return "Admin{" +
+                "players=" + players +
+                ", playersBorrados=" + playersBorrados +
+                '}';
     }
+    //    public void cargarUsario(){
+//        Player player=null;
+//        do{
+//            Scanner scanner=new Scanner(System.in);
+//            System.out.println("Ingrese su nombre de usuario: ");
+//            String nick=scanner.nextLine();
+//            System.out.println("Ingrese su contrasenia");
+//            String password=scanner.nextLine();
+//            player=cargarUsuarioPrivadoPlus(nick,password);
+//        }while (player==null);
+//    }
 }
